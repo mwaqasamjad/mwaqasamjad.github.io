@@ -10,6 +10,15 @@
 ---------------------------------------------------------------------------------
 */
 
+.circular-landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
@@ -31,7 +40,7 @@ body { font-family: Georgia; color: #444; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 46px; font-weight: bold; }
+#hd h1 { font-size: 46px; font-weight: bold; margin-top: 27px; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
@@ -71,4 +80,11 @@ a#pdf:hover { background: #222; }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
+.yui-gb .yui-u, .yui-g .yui-gb .yui-u, .yui-gb .yui-g, .yui-gb .yui-gb, .yui-gb .yui-gc, .yui-gb .yui-gd, .yui-gb .yui-ge, .yui-gb .yui-gf, .yui-gc .yui-u, .yui-gc .yui-g, .yui-gd .yui-u {
+    width: 65% !important;
+    margin-left: 1.99%;
+}
 
+.yui-gc div.first, .yui-gd .yui-u {
+    width: 25% !important;
+}
